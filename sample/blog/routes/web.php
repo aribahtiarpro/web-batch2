@@ -11,13 +11,6 @@
 |
 */
 
-
-Route::get('/blog', function () {
-    return view('blog');
-});
-
-
-
 Route::get('/', function () {
     return view('index');
 });

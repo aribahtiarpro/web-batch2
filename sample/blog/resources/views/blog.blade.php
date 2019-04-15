@@ -1,6 +1,7 @@
 
 @extends('layouts.white')
 
+
 @section('content')
 
 	

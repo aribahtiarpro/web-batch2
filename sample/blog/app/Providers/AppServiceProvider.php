@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('path.public', function() {
+            return realpath('http://localhost/web-batch2/sample/blog/public');
+        });
     }
 
     /**

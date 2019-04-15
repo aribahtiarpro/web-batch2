@@ -72,11 +72,12 @@
 </form>
 <!-- End Form  -->
 
-<header class="header_area header_inner_page">
+		<header class="header_area">
 
-		@include("components.header")
+				@include("components.header")
+				
+		</header>
 
-</header>
     @yield('content')
 
     
