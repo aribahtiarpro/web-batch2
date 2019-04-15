@@ -1,5 +1,5 @@
 
-@extends('layouts.front')
+@extends('layouts.home')
 
 @section('content')
 

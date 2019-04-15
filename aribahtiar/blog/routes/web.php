@@ -11,24 +11,32 @@
 |
 */
 
-Route::get('index', function () {
+Route::get('/', function () {
     return view('index');
 });
 
-Route::get('about', function () {
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('contact', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('blog', function () {
+Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('portofolio', function () {
-    return view('portofolio');
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
+Route::get('/shop', function () {
+    // return view('shop');
 });
 
 Auth::routes();
