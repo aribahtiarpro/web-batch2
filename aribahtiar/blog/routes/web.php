@@ -39,6 +39,15 @@ Route::get('/shop', function () {
     // return view('shop');
 });
 
+
+
+
+// Backend CRUD
+
+
+Route::get('/admin/blog', 'blogController@index');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
